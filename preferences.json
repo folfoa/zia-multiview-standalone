@@ -1,0 +1,24 @@
+[
+  {
+    "property": "mod.multiview.enabled",
+    "label": "Show \"Add to Multiview\" in right-click menus",
+    "type": "checkbox",
+    "defaultValue": true
+  },
+  {
+    "property": "mod.multiview.icon-color",
+    "label": "Multiview tab icon colour",
+    "type": "dropdown",
+    "defaultValue": "blue",
+    "options": [
+      { "label": "Blue", "value": "blue" },
+      { "label": "Match the space colour", "value": "space" }
+    ]
+  },
+  {
+    "property": "mod.multiview.url",
+    "label": "Multiview page URL (restart after changing)",
+    "type": "string",
+    "defaultValue": "https://z1n-k.github.io/zia/multiview/"
+  }
+]
