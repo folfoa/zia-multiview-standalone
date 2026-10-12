@@ -1,28 +1,17 @@
 {
-  "id": "urlshorten",
-  "homepage": "",
-  "name": "URL Shorten",
-  "description": "-.",
-  "author": "Me",
-  "version": "1.0.1",
-  "updatedAt": "2026-09-25",
-  "tags": [
-    "command",
-    "palette",
-    "raycast",
-    "arc",
-    "productivity",
-    "zen browser",
-    "urlbar"
-  ],
-  "fork": [
-    "zen"
-  ],
+  "id": "zia-multiview-standalone",
+  "name": "Multiview",
+  "description": "Grid up to four YouTube, Twitch, Kick, Vimeo or Dailymotion videos and live streams in one tab. Right-click a video, page or tab and choose Add to Multiview.",
+  "readme": "https://raw.githubusercontent.com/folfoa/zia-multiview-standalone/main/README.md",
+  "author": "folfoa (based on z1n-k/zia)",
+  "version": "1.0.0",
   "scripts": {
-    "urlshorten.uc.mjs": {
-      "include": [
-        "chrome://browser/content/browser.xhtml"
-      ]
+    "multiview.uc.js": {
+      "include": ["chrome://browser/content/browser.xhtml"]
     }
-  }
+  },
+  "tags": ["chrome", "video", "utility"],
+  "fork": ["zen"],
+  "preferences": "preferences.json",
+  "homepage": "https://github.com/folfoa/zia-multiview-standalone"
 }
